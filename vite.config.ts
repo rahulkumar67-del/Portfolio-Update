@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
     // 👇 THIS LINE IS MISSING IN YOUR SCREENSHOT. ADD IT!
     base: '/Portfolio-Update/', 
     
+    
     server: {
       port: 3000,
       host: '0.0.0.0',
