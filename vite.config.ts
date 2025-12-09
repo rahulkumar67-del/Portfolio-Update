@@ -5,10 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    // START OF CHANGE: This tells the browser your site is in a folder, not at the root
+    // 👇 THIS LINE IS MISSING IN YOUR SCREENSHOT. ADD IT!
     base: '/Portfolio-Update/', 
-    // END OF CHANGE
-
+    
     server: {
       port: 3000,
       host: '0.0.0.0',
